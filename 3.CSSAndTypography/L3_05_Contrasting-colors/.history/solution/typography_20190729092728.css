@@ -1,0 +1,13 @@
+
+html {
+    background: red;
+
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Helvetica, sans-serif;
+}
+
+ul li {
+    list-style-type: square;
+    list-style-position: outside;
+}
