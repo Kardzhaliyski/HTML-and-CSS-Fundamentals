@@ -1,0 +1,24 @@
+@import "http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css";
+
+
+body {
+    padding: 5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border-radius: 0.1em;
+    background-color: orange;
+    padding: 0.5em;
+    line-height: 1em;
+    margin: 55px;
+}
+
+.star {
+    background-color: rgb(0, 128, 0);
+}
+
+.email {
+    background-color: rgb(255, 140, 0);
+}

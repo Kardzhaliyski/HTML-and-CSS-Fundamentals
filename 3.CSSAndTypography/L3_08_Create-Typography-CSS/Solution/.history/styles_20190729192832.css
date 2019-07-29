@@ -1,0 +1,24 @@
+@import "http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css";
+
+
+body {
+    padding: 5em;
+}
+
+table{
+    width: 100%;
+}
+
+table, th, td {
+    border: 0.05em solid rgb(204, 204, 204);
+    border-spacing: 0;
+}
+
+th {
+    background-color: rgb(204, 204, 204);
+}
+
+table tr:nth-child(odd) td{
+    background: rgb(241, 241, 241);
+}
+
