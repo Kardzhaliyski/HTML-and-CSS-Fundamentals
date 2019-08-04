@@ -1,0 +1,57 @@
+@import url("typography.css");
+
+html {
+    max-width: 80rem;
+    margin: 0 auto;
+    color: rgb(51, 51, 51);
+}
+
+body {
+    padding: 2rem;
+    background-color: rgb(238, 238, 238);
+}
+
+article {
+    display: inline-block;
+    width: 80%;
+    height: auto;
+}
+aside {
+    display: inline-block;
+    width: 19%;
+    height: auto;
+    vertical-align: top;
+}
+div.image {
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+
+div.image img {
+    max-width: 65%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* padding: 1rem;
+    border: 0.5rem solid black; */
+}
+
+ul {
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+
+aside input {
+    margin-bottom: 2rem;
+}
+
+aside ul {
+    padding: 0 1rem;
+}
+
+aside li {
+    list-style-type: none;
+    padding: 0.25rem 0;
+}

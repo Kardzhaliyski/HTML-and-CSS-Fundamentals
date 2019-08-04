@@ -1,0 +1,36 @@
+@import url("typography.css");
+html{
+    padding: 5em;
+}
+body {
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+.site-title {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-right: 4rem;
+    display: inline-block;
+}
+
+header {
+    border-bottom: 2px solid black;
+    margin-bottom: 2rem;
+}
+
+nav {
+    margin-left: 3rem;
+    display: inline-block;
+}
+nav ul {
+    list-style: none;
+}
+nav > ul li{
+    display: inline-block;
+}
+
+nav > ul li a {
+    color:#090;
+    padding: 0.5em 1rem;
+}

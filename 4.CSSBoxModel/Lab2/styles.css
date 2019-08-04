@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700|Pacifico&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "PT sans", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+body {
+    /* max-width: 80rem;
+    margin: 0 auto; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "PT serif", serif;
+    padding-bottom: 1em;
+}
+
+h1 { font-size: 3em; }
+h2 { font-size: 2.2em;}
+h3 { font-size: 1.9em;}
+h4 { font-size: 1.6em;}
+h5 { font-size: 1.4em;}
+h6 { font-size: 1.2em;}
+
+p, ul, ol {
+    padding-bottom: 1rem;
+}
+
+h2 {
+    text-align: center;
+    padding: 0.75em;
+    text-transform: uppercase;
+}
+
+.button {
+    display: inline-block;
+    background: #FF7F50;
+    border-radius: 0.4em;
+    padding: 0.2em 0.5em;
+    margin: 0.5em;
+    text-decoration: none;
+    color: #fff;
+    border: 0.125rem solid #FF7F50;
+}
+
+.button:hover,
+.button:focus {
+    border: 0.125rem solid #FF7F50;
+    background-color: transparent;
+    color: #FF7F50; 
+}
+
+.site-header {
+    background: #F1F5F8;
+    padding: 0.75rem 1rem;
+}
+
+
+.site-header nav {
+    display: inline-block;
+    max-width: 45%;
+}
+
+.site-header ul {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.site-header ul li{
+    display: inline-block;    
+    /* background: #FF7F50;
+    border-radius: 0.4em;
+    padding: 0.2em 0.5em;
+    margin: 0.5em; */
+}
+
+
+
+
+.site-header ul li a::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f015";
+    display: inline-block;
+    font-weight: 900;
+    padding-right: 0.5em;
+}
+
+.site-header ul li:nth-child(2) > a:before {
+    content: "\f500";
+}
+
+.site-header ul li:nth-child(3) > a:before {
+    content: "\f2b9";
+}
+
+.site-header ul li:nth-child(4) > a:before {
+    content: "\f09e";
+}
+
+.site-header ul li:nth-child(5) > a:before {
+    content: "\f2bb";
+}
+                                
+.header-title{
+    display: inline-block;
+    font-size: 2rem;
+    color: #FF7F50;
+    font-family: "Pacifico", serif;
+    width: 50%;
+    padding: 0;
+    vertical-align: top;
+}
+
+.hot-offer {
+background: linear-gradient(rgba(0,0,0,0.2),  rgba(0,0,0,0.4)), url("https://cdn.pixabay.com/photo/2016/02/19/11/47/flowers-1209948_1280.jpg") center;
+background-size: cover;
+padding: 10rem 0;
+text-align: center;
+}
+
+.hot-offer h1 {
+    letter-spacing: 0.125em;
+    text-align: center;
+    color: #FFF;
+    width: 90%; 
+    max-width: 15em;
+    margin: 0 auto;
+    text-shadow: 5px 5px 5px #000000;
+}
+
+.hot-offer p {
+    text-align: center;
+    color: white;
+    width: 70%; 
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+.site-info {
+    background-color: #FF7F50;
+    color: white;
+}
+
+
+
+.site-info p {
+    text-align: center;
+    margin: 0.75em auto;
+    width: 70%; 
+    max-width: 40rem;
+}
+
+.site-info a.button {
+    color: #FF7F50;
+    background-color: white;
+    font-weight: bold;
+    border-color: white;
+}
+
+.site-info a.button:hover,
+.site-info a.button:focus {
+    border: 0.125rem solid white;
+    background-color: transparent;
+    color: white; 
+}
+
+.process-description {
+    display: block;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+
+.process-description > section {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+    max-width: 15rem;
+    min-width: 12rem;
+    text-align: center;
+}
+
+.process-description  h4 {
+    text-transform: uppercase;
+    width: 100%;
+}
+
+.process-description ul {
+    display: block;
+    list-style-type: none;
+    width: 100%;
+}
+
+.process-description section {
+    margin: 0 1.5rem ;
+}
+
+.process-description ul li.icon {
+    max-width: 10rem;
+    max-height: 10rem;
+    margin: 0 auto 1rem;
+
+}
+
+.process-description ul li.icon img {
+    width: 100%;
+    height: 100%;
+}
+
+.gallery {
+    background: rgb(255, 240, 238);
+    padding: 0 01%;
+}
+
+.gallery ul {
+    list-style-type: none;
+    text-align: center;
+    
+}
+
+.gallery li {
+    display: inline-block;
+    max-width: 28%;
+    min-width: 12em;
+    height: auto;
+    vertical-align: middle;
+    margin: 1.5%;
+}
+
+
+.gallery li img{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 4%;
+    border: 0.5em solid black;
+
+}

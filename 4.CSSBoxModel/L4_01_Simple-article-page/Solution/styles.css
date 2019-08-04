@@ -1,0 +1,31 @@
+@import url("typography.css");
+
+html {
+    max-width: 80rem;
+    margin: 0 auto;
+    color: rgb(51, 51, 51);
+}
+
+body {
+    padding: 2rem;
+    background-color: rgb(238, 238, 238);
+}
+div.image {
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+
+div.image img {
+    max-width: 65%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* padding: 1rem;
+    border: 0.5rem solid black; */
+}
+
+ul {
+    padding-left: 2.5rem;
+    margin-bottom: 1rem;
+}
