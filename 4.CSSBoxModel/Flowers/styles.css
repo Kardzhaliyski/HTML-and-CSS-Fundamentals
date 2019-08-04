@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700|Pacifico&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +12,9 @@ html {
     box-sizing: border-box;
 }
 
-*, *:after, *:before {
+*,
+*:after,
+*:before {
     box-sizing: inherit;
 }
 
@@ -20,19 +23,43 @@ body {
     margin: 0 auto; */
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "PT serif", serif;
     padding-bottom: 1em;
 }
 
-h1 { font-size: 3em; }
-h2 { font-size: 2.2em;}
-h3 { font-size: 1.9em;}
-h4 { font-size: 1.6em;}
-h5 { font-size: 1.4em;}
-h6 { font-size: 1.2em;}
+h1 {
+    font-size: 3em;
+}
 
-p, ul, ol {
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.9em;
+}
+
+h4 {
+    font-size: 1.6em;
+}
+
+h5 {
+    font-size: 1.4em;
+}
+
+h6 {
+    font-size: 1.2em;
+}
+
+p,
+ul,
+ol {
     padding-bottom: 1rem;
 }
 
@@ -57,7 +84,7 @@ h2 {
 .button:focus {
     border: 0.125rem solid #FF7F50;
     background-color: transparent;
-    color: #FF7F50; 
+    color: #FF7F50;
 }
 
 .site-header {
@@ -78,8 +105,8 @@ h2 {
     padding: 0;
 }
 
-.site-header ul li{
-    display: inline-block;    
+.site-header ul li {
+    display: inline-block;
     /* background: #FF7F50;
     border-radius: 0.4em;
     padding: 0.2em 0.5em;
@@ -97,23 +124,23 @@ h2 {
     padding-right: 0.5em;
 }
 
-.site-header ul li:nth-child(2) > a:before {
+.site-header ul li:nth-child(2)>a:before {
     content: "\f500";
 }
 
-.site-header ul li:nth-child(3) > a:before {
+.site-header ul li:nth-child(3)>a:before {
     content: "\f2b9";
 }
 
-.site-header ul li:nth-child(4) > a:before {
+.site-header ul li:nth-child(4)>a:before {
     content: "\f09e";
 }
 
-.site-header ul li:nth-child(5) > a:before {
+.site-header ul li:nth-child(5)>a:before {
     content: "\f2bb";
 }
-                                
-.header-title{
+
+.header-title {
     display: inline-block;
     font-size: 2rem;
     color: #FF7F50;
@@ -124,17 +151,17 @@ h2 {
 }
 
 .hot-offer {
-background: linear-gradient(rgba(0,0,0,0.2),  rgba(0,0,0,0.4)), url("https://cdn.pixabay.com/photo/2016/02/19/11/47/flowers-1209948_1280.jpg") center;
-background-size: cover;
-padding: 10rem 0;
-text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("https://cdn.pixabay.com/photo/2016/02/19/11/47/flowers-1209948_1280.jpg") center;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
 }
 
 .hot-offer h1 {
     letter-spacing: 0.125em;
     text-align: center;
     color: #FFF;
-    width: 90%; 
+    width: 90%;
     max-width: 15em;
     margin: 0 auto;
     text-shadow: 5px 5px 5px #000000;
@@ -143,7 +170,7 @@ text-align: center;
 .hot-offer p {
     text-align: center;
     color: white;
-    width: 70%; 
+    width: 70%;
     max-width: 40rem;
     margin: 0 auto;
 }
@@ -158,7 +185,7 @@ text-align: center;
 .site-info p {
     text-align: center;
     margin: 0.75em auto;
-    width: 70%; 
+    width: 70%;
     max-width: 40rem;
 }
 
@@ -173,7 +200,7 @@ text-align: center;
 .site-info a.button:focus {
     border: 0.125rem solid white;
     background-color: transparent;
-    color: white; 
+    color: white;
 }
 
 .process-description {
@@ -183,7 +210,7 @@ text-align: center;
 }
 
 
-.process-description > section {
+.process-description>section {
     display: inline-block;
     width: 32%;
     vertical-align: top;
@@ -192,7 +219,7 @@ text-align: center;
     text-align: center;
 }
 
-.process-description  h4 {
+.process-description h4 {
     text-transform: uppercase;
     width: 100%;
 }
@@ -204,7 +231,7 @@ text-align: center;
 }
 
 .process-description section {
-    margin: 0 1.5rem ;
+    margin: 0 1.5rem;
 }
 
 .process-description ul li.icon {
@@ -227,7 +254,7 @@ text-align: center;
 .gallery ul {
     list-style-type: none;
     text-align: center;
-    
+
 }
 
 .gallery li {
@@ -240,11 +267,70 @@ text-align: center;
 }
 
 
-.gallery li img{
+.gallery li img {
     width: 100%;
     height: auto;
     background-color: white;
     padding: 4%;
     border: 0.5em solid black;
+}
 
+.site-footer {
+    background-color: #FF7F50;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.site-footer p {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    padding: 0;
+    margin: 0 6rem;
+
+}
+
+.site-footer .site-logo {
+    font-family: "Pacifico", serif;
+    font-size: 1.3em;
+    letter-spacing: 0.06em;
+}
+
+.site-footer ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+.site-footer li {
+    display: inline-block;
+    padding: 0 0.2em;
+}
+
+.site-footer li a {
+    size: 3rem;
+}
+
+.site-footer li a:before {
+    font-family: "Font Awesome 5 Brands";
+    display: inline-block;
+    color: white;
+    border: 1px solid white;
+    line-height: 1em;
+    padding: 0.125em;
+    border-radius: 50%;
+}
+
+.site-footer li:nth-child(1) a:before{
+    content: "\f09a";
+    font-size: 1.3em;
+}
+
+.site-footer li:nth-child(2) a:before{
+    content: "\f099";
+    font-size: 1.3em;
+}
+
+.site-footer li:nth-child(3) a:before{
+    content: "\f09b";
+    font-size: 1.3em;
 }
