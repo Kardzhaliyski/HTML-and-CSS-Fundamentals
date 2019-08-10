@@ -1,0 +1,15 @@
+@import url("typography.css");
+
+body {
+    
+}
+
+header {
+    border-bottom: 2px solid #000;
+}
+
+.site-title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+}
