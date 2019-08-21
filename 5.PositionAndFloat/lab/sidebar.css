@@ -1,0 +1,12 @@
+.site-sidebar {
+    padding: 2rem;
+}
+
+.site-sidebar ul {
+    list-style-position: inside;
+    padding-left: 1rem;
+}
+
+.site-sidebar ul li a {
+    color: blue;
+}

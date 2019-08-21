@@ -1,0 +1,61 @@
+nav ul {
+    padding: 0;
+    margin: 0;
+    background-color: #000;
+}
+
+nav>ul {
+    padding: 0.2em;
+}
+
+nav ul li {
+    display: block;
+    list-style: none outside;
+    position: relative;
+    z-index: 100;
+}
+
+nav>ul>li {
+    float: left;
+}
+
+nav li a {
+    color: #FFF;
+    display: block;
+    padding: 0.8em 1em;
+    text-decoration: none;
+    line-height: 1;
+    border-radius: 0.3em;
+}
+
+nav li:hover>a,
+nav li a:hover {
+    background: red;
+}
+
+nav li ul {
+    display: block;
+    opacity: 0;
+    transform: translateY(1rem);
+    pointer-events: none;
+    transition: opacity 0.2s ease-in, transform 0.2s ease-in;    
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+nav li li ul {
+    top: 0;
+    left: 100%;
+}
+
+nav li:hover>ul {
+    opacity: 1;
+    pointer-events: all;
+    transform: translateY(0);
+}
+
+.has-sub-menu > a::after {
+    margin-left: 0.5rem;
+    content: '⤵';
+}
