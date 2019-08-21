@@ -18,7 +18,7 @@ html {
 }
 
 html {
-    font: 16px/1.5 Helvetica, sans-serif;
+    font: 16px/1.5 PT Sans, Helvetica, Verdana, sans-serif;
 }
 
 p {
@@ -32,12 +32,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
-h1 { font-size: 2.2em;}
-h2 { font-size: 1.9em;}
-h3 { font-size: 1.6em;}
-h4 { font-size: 1.5em;}
-h5 { font-size: 1.3em;}
-h6 { font-size: 1.1em;}
+h1 { font-size: 3em; font-weight: normal; }
+h2 { font-size: 2.2em;}
+h3 { font-size: 1.9em;}
+h4 { font-size: 1.6em;}
+h5 { font-size: 1.4em;}
+h6 { font-size: 1.2em;}
 
 .ampersand {
     font-weight: bold;
@@ -47,5 +47,4 @@ h6 { font-size: 1.1em;}
 
 a {
     text-decoration: none;
-    color: black;
 }
