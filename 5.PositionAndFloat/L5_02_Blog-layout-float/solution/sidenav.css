@@ -1,0 +1,29 @@
+aside {
+    float: left;
+    width: 30%;
+    height: auto;
+    padding: 2rem;
+}
+aside h3 {
+
+}
+
+aside nav {
+
+}
+
+aside section {
+    margin-bottom: 1.5rem;
+}
+aside nav ul {
+    list-style-position: inside;
+    list-style-type: square;
+}
+
+aside nav li {
+    padding-left: 1rem;
+}
+
+aside nav ul a {
+    color: rgb(45, 122, 19);
+}
