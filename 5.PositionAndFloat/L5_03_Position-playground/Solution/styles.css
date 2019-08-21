@@ -1,0 +1,55 @@
+@import url("typography.css");
+@import url("https://use.fontawesome.com/releases/v5.10.1/css/all.css");
+
+body {
+    max-width: 60rem;
+    margin: 0 auto;
+}
+
+.viewport {
+    position: relative;
+    height: 50vh;
+    width: auto;
+}
+
+.card {
+    width: 25%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.viewport:nth-of-type(1) {
+    background: linear-gradient(90deg, rgba(24, 90, 157, 1) 0%, rgba(67, 206, 162, 1) 100%);
+}
+
+.viewport:nth-of-type(2) {
+    background: linear-gradient(90deg, rgba(168, 50, 120, 1) 0%, rgba(211, 130, 18, 1) 100%);
+}
+
+.card:after{
+    font-family: "Font Awesome 5 Free";
+    content: '';
+    position: absolute;
+    bottom: 0.8rem;
+    right: 0.5rem;
+    z-index: 100;
+    color: white;
+    font-weight: bold;
+}
+
+.viewport:nth-of-type(1) .card:after {
+    content: "\f0c1";
+}
+
+.viewport:nth-of-type(2) .card:after {
+    content: "\f005";
+}
