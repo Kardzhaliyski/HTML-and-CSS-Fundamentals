@@ -1,0 +1,73 @@
+@import url("typography.css");
+@import url("https://use.fontawesome.com/releases/v5.10.1/css/all.css");
+
+ul {
+    display: inline-block;
+    orientation: horizontal;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.icon {
+    display: block;
+    background: rgb(238, 238, 238);
+    border-radius: 50%;
+    margin: 0.5rem;
+    padding: 0.3em 0.48em;
+    font-size: 50px;
+}
+
+.icon:after {
+    
+    font-family: "Font Awesome 5 Brands";
+    display: block;
+    content: 'h';
+    color: rgb(38, 38, 38);
+    font-weight: bold;
+}
+
+.facebook-icon:after {
+    content: '\f082';
+}
+
+.facebook-icon:hover::after {
+    color: rgb(66, 103, 178);
+}
+
+.twitter-icon:after {
+    content: '\f099';
+}
+
+.twitter-icon:hover::after {
+    color: rgb(29, 161, 242);
+}
+
+.googlePlus-icon:after {
+    content: '\f2b3';
+}
+
+.googlePlus-icon:hover::after {
+    color: rgb(221, 80, 68);
+}
+
+.linkin-icon:after {
+    content: '\f08c';
+}
+
+.linkin-icon:hover:after {
+    color: rgb(0, 115, 176);
+}
+
+.instagram-icon:after {
+    content: '\f16d';
+}
+
+.instagram-icon:hover:after {
+    color: white;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
