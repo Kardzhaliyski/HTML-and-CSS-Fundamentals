@@ -1,0 +1,56 @@
+.container {
+    background: rgb(15, 232, 236);
+    width: 80vw;
+    height: 80vh;
+    margin: 10vh auto;
+    position: relative;
+}
+
+.box {
+    content: '';
+    background: rgb(235, 233, 14);
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+}
+
+.box::after {
+    position: absolute;
+    background: red;
+    content: '';
+    width: 50%;
+    height: 50%;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box::after::after {
+    position: absolute;
+    background: greenyellow;
+    content: '';
+    width: 77%;
+    height: 77%;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.box1 {
+    top: 0; left: 0;
+}
+
+.box2 {
+    top: 0; right: 0;
+}
+
+.box3 {
+    bottom: 0; left: 0;
+}
+
+.box4 {
+    bottom: 0; right: 0;
+}
+
+.box5 {
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+}
