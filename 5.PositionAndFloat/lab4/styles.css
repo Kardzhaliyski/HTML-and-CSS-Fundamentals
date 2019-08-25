@@ -1,0 +1,119 @@
+/* Reset.css */
+* {
+    padding: 0;
+    margin: 0;
+} 
+
+/* Box Sizing  */
+
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    background: lightblue;
+}
+.card {
+    position: relative;
+    width: 800px;
+    height: 460px;
+    margin: 100px auto;
+    background: linear-gradient(rgb(36, 63, 106), rgb(58, 60, 56));
+}
+
+.color-background {
+    background: linear-gradient(90deg, yellow 20%, greenyellow 20% 40%, green 40% 60%, rgb(255, 176, 29) 60% 80%, red 80%);
+}
+
+.top-line {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    top: 30px; left: 0;
+}
+
+.bottom-line {
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0; left: 0;
+}
+
+ul.contact-info {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    list-style: none;
+    text-align: center;
+    bottom: 50px; left: 0;
+}
+
+ul.contact-info li {
+    display: inline-block;
+    width: 20%;
+    float: left;
+    padding-top: 15px; 
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 3px gray;
+}
+
+.qr-code img {
+    width: 70%;
+    height: auto;
+    top: 50%; left: 50%;
+    transform: translate(0%, -40%);
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 80px;
+    top: 25%;
+    transform: rotate(-20deg);
+    overflow: hidden;
+}
+
+.face {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: 100%;
+}
+
+ul.info {
+    position: absolute;
+    top: 25%; right: 10%;
+    list-style: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: right;
+}
+
+ul.info li {
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 4px  black;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+
+ul.info li.name {
+    color: greenyellow;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.cleaner::after {
+    display: block;
+    content: '';
+    clear: both;
+}
